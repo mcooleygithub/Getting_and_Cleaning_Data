@@ -5,7 +5,7 @@ December, 2014
 
 Codebook prepared by Michael Cooley based on a data set created for a Corsera Getting and Cleaning Data course
 
-The dataset contains 180 observations of 68 variables.  One variable is the subject_id, 30 in total, and another is an activity, six in total.  The remainder are summary statistics (the mean) for variables in a larger data set.
+The dataset contains 180 observations of 68 variables.  One variable is the subject_id, 30 possible values, and another is an activity, six possible values.  The remainder are summary statistics (the mean) for variables from a larger data set.  Information on this data set can be found in the ReadMe file in this repository.
 
 |   |   |
 | ------- | ------- |
@@ -18,7 +18,11 @@ The dataset contains 180 observations of 68 variables.  One variable is the subj
 | Variable:		| Activity Name
 | Variable type:		| String
 |Comments:		| Description of the activity
-| 			|
+
+Note:  the remaining entries in the code book refer to a series of variables (columns) in the tidy data file.  The Field Lable Series shows the prefix of the name of a series of several variables rather than just one variable.  The data set is tidy, but the code book is less so to save some space and avoid lots of repitition.
+
+|   |   |
+| ------- | ------- |
 | Field label Series: | tBodyAcc | 
 | Variable: | A Mean and StdDev variable for each of the X, Y, and Z axis | 
 | Variable type: | Number |
